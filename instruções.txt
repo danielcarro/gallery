@@ -1,0 +1,48 @@
+
+/////intalar react/////
+npx create-react-app gallery --template typescript
+
+
+/////instalar bibliotecas////
+npm install styled-components
+
+npm install -D @types/styled-components
+
+npm install uuid
+
+npm install -D @types/uuid
+
+npm install firebase
+
+/////iniciar projeto////
+
+
+npm start
+
+----------------------------------------------------------
+Firebase
+
+criar projeto no firebase
+
+import {initializeApp} from 'firebase/app';
+import {getStorage} from 'firebase/storage';
+
+
+////essa parte copiar do projeto firebase/////
+const firebaseConfig = {
+    apiKey: "AIzaSyBwwn-SMIBUV18HsoPDhpuXNCIhkv-Bq4o",
+    authDomain: "gallery-c89f9.firebaseapp.com",
+    projectId: "gallery-c89f9",
+    storageBucket: "gallery-c89f9.appspot.com",
+    messagingSenderId: "450266448953",
+    appId: "1:450266448953:web:eaa83a9b33b9fc14dd39e8"
+  };
+/////////////////////////////////////////////////
+
+
+  const firebaseApp = initializeApp(firebaseConfig);
+
+  export const storage = getStorage(firebaseApp);
+
+parou no minuto 50:00.
+
