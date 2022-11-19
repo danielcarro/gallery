@@ -1,4 +1,4 @@
-## Photo gallery
+# Photo gallery
 
 Modern, simple and functional photo gallery
 
@@ -8,9 +8,6 @@ This project was created with ReactJS with Typescript
 
 [See Project working](https://gallery.dcdev.site)
 
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
